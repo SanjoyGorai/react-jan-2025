@@ -17,7 +17,7 @@ function App() {
           alt="sanjoy6"
           className="w-72 "
         />
-        <p className=" text-white font-semibold p-1">Sanjoy Gorai</p>
+        <p className=" text-white font-semibold p-1">Sankari Gorai</p>
       </div>
       <div className="flex flex-col  bg-blue-400 m-1">
         <img
@@ -25,7 +25,7 @@ function App() {
           alt="sanjoy6"
           className="w-72 "
         />
-        <p className=" text-white font-semibold p-1">Sanjoy Gorai</p>
+        <p className=" text-white font-semibold p-1">Sunil Gorai</p>
       </div>
       <div className="flex flex-col  bg-blue-400 m-1">
         <img
@@ -33,7 +33,7 @@ function App() {
           alt="sanjoy6"
           className="w-72 "
         />
-        <p className=" text-white font-semibold p-1">Sanjoy Gorai</p>
+        <p className=" text-white font-semibold p-1">Mithu Gorai</p>
       </div>
     </div>
   );

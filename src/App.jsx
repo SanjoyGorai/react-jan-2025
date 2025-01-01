@@ -2,26 +2,40 @@
 
 function App() {
   return (
-    <>
-      <div className="flex items-center justify-center h-screen bg-red-100 w-full">
-        <div className="flex flex-col items-center bg-blue-400">
-          <img
-            src="../src/assets/images/sanjoy6.jpg"
-            alt="sanjoy6"
-            className="w-96 "
-          />
-          <h1 className="text-red-600">Sanjoy Gorai</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <img
-            src="../src/assets/images/sanjoy6.jpg"
-            alt="sanjoy6"
-            className="w-96 "
-          />
-          <h1 className="text-red-600">Sanjoy Gorai</h1>
-        </div>
+    <div className="flex justify-center items-center ">
+      <div className="flex flex-col bg-blue-400 m-1 rounded-t-md">
+        <img
+          src="../src/assets/images/sanjoy6.jpg"
+          alt="sanjoy6"
+          className="w-72  "
+        />
+        <p className="text-white font-semibold p-1">Sanjoy Gorai</p>
       </div>
-    </>
+      <div className="flex flex-col  bg-blue-400 m-1">
+        <img
+          src="../src/assets/images/grany1.jpg"
+          alt="sanjoy6"
+          className="w-72 "
+        />
+        <p className=" text-white font-semibold p-1">Sanjoy Gorai</p>
+      </div>
+      <div className="flex flex-col  bg-blue-400 m-1">
+        <img
+          src="../src/assets/images/dad.jpg"
+          alt="sanjoy6"
+          className="w-72 "
+        />
+        <p className=" text-white font-semibold p-1">Sanjoy Gorai</p>
+      </div>
+      <div className="flex flex-col  bg-blue-400 m-1">
+        <img
+          src="../src/assets/images/sanjoy1.jpg"
+          alt="sanjoy6"
+          className="w-72 "
+        />
+        <p className=" text-white font-semibold p-1">Sanjoy Gorai</p>
+      </div>
+    </div>
   );
 }
 
